@@ -1,7 +1,5 @@
+const ImageGenerationPage = () => {
+  return <div>ImageGenerationPage</div>;
+};
 
-
-export const ImageGenerationPage = () => {
-  return (
-    <div>ImageGenerationPage</div>
-  )
-}
+export default ImageGenerationPage;
