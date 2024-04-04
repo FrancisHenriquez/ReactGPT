@@ -1,0 +1,7 @@
+export * from './image-generation/ImageGenerationPage'
+export * from './Ortography/OrtographyPage' 
+export * from './assistant/AssistantPage'
+export * from './Text-to-Audio/TextToAudio'
+export * from './pros-cons/ProsConsPage'
+export * from './translate/translatePage'
+// export * from './Ortography/OrtographyPage'
