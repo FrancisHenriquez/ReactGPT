@@ -2,7 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import OrtographyPage from '../pages/Ortography/OrtographyPage';
 import ProsConsPage from '../pages/pros-cons/ProsConsPage';
 import ProsConsStream from '../pages/Pros-Cons-Stream/prosConsStream';
-import translatePage from "../pages/translate/translatePage";
+import TranslatePage from "../pages/translate/translatePage";
 import TextToAudio from "../pages/Text-to-Audio/TextToAudio";
 import { AssistantPage, ImageGenerationPage } from "../pages";
 import ImageTuningPage from "../pages/image-generation/ImageTuningPage";
@@ -35,7 +35,7 @@ export const menuRoutes = [
       icon: "fa-solid fa-language",
       title: "Traducir",
       description: "Textos a otros idiomas",
-      component: <translatePage />
+      component: <TranslatePage />
     },
     {
       to: "/text-to-audio",

@@ -1,11 +1,5 @@
-
-
 const translatePage = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+  return <div></div>;
+};
 
-export default translatePage
+export default translatePage;
