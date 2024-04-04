@@ -1,10 +1,5 @@
-
 const ProsConsStream = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+  return <div></div>;
+};
 
-export default ProsConsStream
+export default ProsConsStream;

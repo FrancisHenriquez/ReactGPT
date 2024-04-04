@@ -1,10 +1,5 @@
-
 const OrtographyPage = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+  return <div></div>;
+};
 
-export default OrtographyPage
+export default OrtographyPage;

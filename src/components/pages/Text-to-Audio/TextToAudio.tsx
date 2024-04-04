@@ -1,11 +1,5 @@
-
-
 const TextToAudio = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+  return <div></div>;
+};
 
-export default TextToAudio
+export default TextToAudio;

@@ -1,6 +1,5 @@
-
 export const AudioToTextPage = () => {
-  return (
-    <div>AudioToTextPage</div>
-  )
-}
+  return <div>AudioToTextPage</div>;
+};
+
+export default AudioToTextPage;

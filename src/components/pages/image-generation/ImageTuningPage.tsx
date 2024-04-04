@@ -1,10 +1,5 @@
-
 const ImageTuningPage = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+  return <div></div>;
+};
 
-export default ImageTuningPage
+export default ImageTuningPage;

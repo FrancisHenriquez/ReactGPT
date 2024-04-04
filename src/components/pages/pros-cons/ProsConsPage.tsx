@@ -1,10 +1,5 @@
-
 const ProsConsPage = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+  return <div></div>;
+};
 
-export default ProsConsPage
+export default ProsConsPage;
