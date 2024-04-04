@@ -1,4 +1,12 @@
 import { createBrowserRouter } from "react-router-dom";
+import OrtographyPage from '../pages/Ortography/OrtographyPage';
+import ProsConsPage from '../pages/pros-cons/ProsConsPage';
+import ProsConsStream from '../pages/Pros-Cons-Stream/prosConsStream';
+import translatePage from "../pages/translate/translatePage";
+import TextToAudio from "../pages/Text-to-Audio/TextToAudio";
+import { AssistantPage, ImageGenerationPage } from "../pages";
+import ImageTuningPage from "../pages/image-generation/ImageTuningPage";
+import { AudioToTextPage } from "../pages/audio-to-text/AudioToTextPage";
 
 export const menuRoutes = [
     {
@@ -6,7 +14,7 @@ export const menuRoutes = [
       icon: "fa-solid fa-spell-check",
       title: "Ortografía",
       description: "Corregir ortografía",
-      component: <OrthographyPage />
+      component: <OrtographyPage />
     },
     {
       to: "/pros-cons",
@@ -20,21 +28,21 @@ export const menuRoutes = [
       icon: "fa-solid fa-water",
       title: "Como stream",
       description: "Con stream de mensajes",
-      component: <ProsConsStreamPage />
+      component: <ProsConsStream />
     },
     {
       to: "/translate",
       icon: "fa-solid fa-language",
       title: "Traducir",
       description: "Textos a otros idiomas",
-      component: <TranslatePage />
+      component: <translatePage />
     },
     {
       to: "/text-to-audio",
       icon: "fa-solid fa-podcast",
       title: "Texto a audio",
       description: "Convertir texto a audio",
-      component: <TextToAudioPage />
+      component: <TextToAudio />
     },
     {
       to: "/image-generation",
@@ -48,7 +56,7 @@ export const menuRoutes = [
       icon: "fa-solid fa-wand-magic",
       title: "Editar imagen",
       description: "Generación continua",
-      component: <ImageTunningPage />
+      component: <ImageTuningPage />
     },
     {
       to: "/audio-to-text",
